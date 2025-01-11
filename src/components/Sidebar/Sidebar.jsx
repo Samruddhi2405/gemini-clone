@@ -4,7 +4,12 @@ import './Sidebar.css'
 const Sidebar = () => {
   return (
     <div className='sidebar'>
+      <div className="top">
 
+      </div>
+      <div className="bottom">
+        
+      </div>
     </div>
   )
 }
