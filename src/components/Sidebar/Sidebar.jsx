@@ -12,7 +12,10 @@ const Sidebar = () => {
           <p>New Chat</p>
         </div>
         <div className="recent">
-          
+          <p className="recent-title">Recent</p>
+          <div className="recent-entry">
+            
+          </div>
         </div>
       </div>
       <div className="bottom">
