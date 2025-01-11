@@ -16,3 +16,10 @@
     margin-left: 10px;
     cursor: pointer;
 }
+
+.sidebar .new-chat {
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    
+}
