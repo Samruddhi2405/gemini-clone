@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: #f0f4f9;
+    padding: 25px 15px;
 }
 
 .sidebar img {
@@ -13,5 +14,5 @@
 .sidebar .menu {
     display: block;
     margin-left: 10px;
-    
+    cursor: pointer;
 }
