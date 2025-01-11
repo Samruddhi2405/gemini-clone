@@ -42,6 +42,9 @@ const Main = () => {
                         <img src={assets.send_icon} alt="" />
                     </div>
                 </div>
+                <p className="bottom-info">
+                Gemini may display inaccurate information, including about people, so double-check its responses. Your privacy and Gemini Apps
+                </p>
             </div>
         </div>
     </div>
