@@ -16,7 +16,20 @@ const Main = () => {
             </div>
             <div className="cards">
                 <div className="card">
-                    
+                    <p>Suggest beautiful places to see on an upcoming road trip</p>
+                    <img src={assets.compass_icon} alt="" />
+                </div>
+                <div className="card">
+                    <p>Briefly summarize this concept: Urban Planning</p>
+                    <img src={assets.compass_icon} alt="" />
+                </div>
+                <div className="card">
+                    <p></p>
+                    <img src={assets.compass_icon} alt="" />
+                </div>
+                <div className="card">
+                    <p>Suggest beautiful places to see on an upcoming road trip</p>
+                    <img src={assets.compass_icon} alt="" />
                 </div>
             </div>
         </div>
