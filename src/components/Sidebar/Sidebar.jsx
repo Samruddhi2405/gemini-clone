@@ -14,6 +14,8 @@ const Sidebar = () => {
           <img src={assets.plus_icon} alt="" />
           {extended?<p>New Chat</p>:null}
         </div>
+        {extended
+        ?
         <div className="recent">
           <p className="recent-title">Recent</p>
           <div className="recent-entry">
@@ -21,6 +23,7 @@ const Sidebar = () => {
             <p>What is React...</p>
           </div>
         </div>
+        :null}
       </div>
       <div className="bottom">
         <div className="bottom-item recent-entry">
