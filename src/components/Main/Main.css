@@ -81,3 +81,9 @@
     padding: 0px 20px;
     margin: auto;
 }
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
