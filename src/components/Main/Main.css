@@ -94,4 +94,10 @@
 
 .search-box img {
     width: 24px;
+    cursor: pointer;
+}
+
+.search-box input {
+    flex: 1;
+    background: transparent;
 }
