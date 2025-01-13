@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 const genAI = new GoogleGenerativeAI("AIzaSyCSIVHPn7W1LDSkqbMhhp__YfpX7Sf3lgk");
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
-const prompt = "What is react js";
+const prompt = "what is react js";
 
 const result = await model.generateContent(prompt);
 console.log(result.response.text());
